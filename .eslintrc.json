@@ -1,0 +1,10 @@
+{
+  "extends": "@ueno",
+  "settings": {
+    "import/core-modules": [
+      "App",
+      "route",
+      "reactApplication"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "upstream"]
+	url = https://github.com/ueno-llc/starter-kit-universally.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+	pushurl = no_push
+[branch "development"]
+	remote = upstream
+	merge = refs/heads/development
+[branch "master"]
+	remote = upstream
+	merge = refs/heads/master
+[remote "origin"]
+	url = my-origin
+	fetch = +refs/heads/*:refs/remotes/origin/*
